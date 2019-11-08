@@ -1,0 +1,33 @@
+{
+  "name": "node-db-sprint-challenge",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cboydstun/node-db-sprint-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cboystun/node-db-sprint-challenge/issues"
+  },
+  "homepage": "https://github.com/cboydstun/node-db-sprint-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.4",
+    "morgan": "^1.9.1",
+    "objection": "^1.6.9",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "knex-cleaner": "^1.3.0",
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2"
+  }
+}
